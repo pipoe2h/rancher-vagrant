@@ -1,6 +1,5 @@
-﻿#BOX_IMAGE = "centos/atomic-host"
-BOX_IMAGE = "ubuntu/xenial64"
-NODE_COUNT = 2
+﻿BOX_IMAGE = "ubuntu/xenial64"
+NODE_COUNT = 2 # Minimum one node
 
 Vagrant.configure("2") do |config|
   config.hostmanager.enabled = true
